@@ -38,8 +38,8 @@ print (f"Su cuenta numero {numero} tiene {cunt.cuanto_tienes()} euros actualment
 #pides la accion 
 bucle=True
 while (bucle):
-   
-    accion= input  (f"Porfavor escribe la accion que quieras realizar, (depositar, extraer, comprobar dinero, cambiar divisa,cambiar de cuenta, cometer suicidio economico, cerrar sesion): ")
+    print (f"Porfavor escribe la accion que quieras realizar:")
+    accion= input  (f"(depositar, extraer, comprobar dinero, cambiar divisa,cambiar de cuenta, cometer suicidio economico, cerrar sesion): ")
 
     if accion == "depositar":
         deposito= float(input("¿Cuanta pasta quieres meter? (euros): ") )
